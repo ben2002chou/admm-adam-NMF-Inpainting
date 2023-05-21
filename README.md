@@ -23,7 +23,7 @@ num_corrupted_bands = 181;
 pct_zero = 0.995;
 ```
 The corrupted data is then saved and displayed using the `Himshow` function, a custom function to display hyperspectral images in RGB format.
-
+Keep in mind that you may want to lower the level of corruption for more realistic use case.
 #### HyperCSI Algorithm
 
 HyperCSI (Hyper-spectral Compressive Sensing Imaging) algorithm is applied on the squeezed corrupted data to estimate the Abundance Matrix (A_est) and the Endmember Matrix (S_est).
